@@ -1,0 +1,37 @@
+.focused_section{
+    background: #ED4C5C;
+}
+.stay_focused{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8rem;
+    gap: 7rem;
+}
+.stay_left{
+    width: 50%;
+    padding-top: 9.5rem;
+}
+.stay_right{
+    width: 50%;
+    padding-top: 6rem;
+}
+.stay_left > h3 {
+    color: #FFF;
+font-size: 4rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.stay_left > p{
+    color: #FFF;
+font-size: 1.451rem;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 1.225rem */
+margin-top: 3rem;
+margin-bottom: 4rem;
+}
+.icons{
+    display: flex;
+    gap: 3rem;
+}

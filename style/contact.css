@@ -1,0 +1,111 @@
+.contact_section {
+    background: #FFF;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    gap: 9rem;
+}
+
+.contact_left {
+    width: 50%;
+}
+
+.contact_right {
+    width: 50%;
+}
+
+.about_your_self {
+    padding: 0 0 0 6.5rem;
+}
+
+.first_name {
+    display: flex;
+    align-items: center;
+    gap: 3.6rem;
+}
+
+.first_name>input {
+    padding: 1.5rem 0 1.5rem 3rem;
+    color: rgba(19, 39, 67, 0.50);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 0.375rem;
+    border: 1px solid var(--gray-1, #333);
+}
+
+.about_your_self>input {
+    width: 100%;
+    padding: 1.5rem 0 1.5rem 3rem;
+    color: rgba(19, 39, 67, 0.50);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 0.375rem;
+    margin: 3rem 0;
+}
+
+.select {
+    display: flex;
+    position: relative;
+
+}
+
+.img_contact {
+    position: absolute;
+    top: 2.3rem;
+    right: 3rem;
+}
+
+.select>input {
+    width: 100%;
+    padding: 1.5rem 0 1.5rem 3rem;
+    color: rgba(19, 39, 67, 0.50);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 0.375rem;
+    margin-bottom: 3.2rem;
+}
+
+.img_contact>img {
+    width: 2rem;
+}
+
+.submit {
+    color: #FFF;
+
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 2rem 4rem;
+    border-radius: 0.675rem;
+    border: 1.5px solid #ED4C5C;
+    background: #ED4C5C;
+}
+
+.contact_h3 {
+    color: #000;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 4rem;
+}
+.contact_left > p{
+    color: #000;
+text-align: justify;
+font-size: 1.7rem;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+}

@@ -1,0 +1,46 @@
+/* ======= FONTS =========*/
+@font-face {
+    font-family: 'Lato';
+    src: url(/fonts/Lato-Regular.ttf);
+ }
+/* ======= COLOR =========*/
+:root {
+    --main-color:#FFFFFF;
+    --public-p-h-color:#000;
+    --p-money-color: #FFF;
+}
+
+/* ======= BASIC STYLE  =========*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+body{
+    padding: 0 10rem;
+}
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.fixed{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+}

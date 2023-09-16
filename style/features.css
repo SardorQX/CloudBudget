@@ -1,0 +1,141 @@
+.features_section {
+    background: #FAFAFA;
+    padding-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    padding-top: 11.31rem;
+    padding-bottom: 16.31rem;
+    justify-content: space-between;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.image_one {
+    position: relative;
+}
+
+.supports {
+    position: absolute;
+    top: 15rem;
+    left: 4rem;
+    padding: 4.5rem;
+    border-radius: 0.7rem;
+    background: #FFF;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.10);
+}
+
+.supports>h4 {
+    color: #101010;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.supports>p {
+    color: #101010;
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 1.5rem 0;
+}
+
+.supports>span {
+    color: #ED4C5C;
+    padding-left: 6rem;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 1.125rem */
+}
+
+.features_h2 {
+    text-align: center;
+    padding-top: 4rem;
+    color: #000;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* slider */
+
+
+.btn{
+    font-size: 50px;
+    padding: 20px;
+    border: none;
+    color: #000;
+    background-color: transparent;
+}
+.prev-btn{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.next-btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 36%;
+    width: 100%;
+    height: 100%;
+}
+
+/* ////////////////////////////////////////// */
+
+
+
+.slide1{
+    transform: translateX(0);
+}
+
+.slide2{
+    transform: translateX(100%);
+}
+
+.slide3{
+    transform: translateX(200%);
+}
+
+.slide4{
+    transform: translateX(300%);
+}
+
+.dots{
+    display: flex;
+    gap: 30px;
+   justify-content: center;
+}
+
+
+.dot{
+    width: 15px;
+    height: 15px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+
+.blackDot{
+    background-color: bisque;
+    border: 2px solid bisque ;
+}

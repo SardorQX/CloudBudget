@@ -1,0 +1,49 @@
+.section1 {
+    display: flex;
+    gap: 7.81rem;
+    position: relative;
+}
+
+.section_left {
+    width: 50%;
+    padding-top: 8.75rem;
+}
+
+.section_right {
+    width: 50%;
+    padding-top: 5.88rem;
+    padding-bottom: 5.88rem;
+}
+
+.section_left>h3 {
+    color: #000;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.section_left>p {
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 3rem 0;
+}
+
+.section_left>span {
+    color: #ED4C5C;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.icon_div{
+    position: absolute;
+    top: 19rem;
+    left: 61rem;
+    padding: 2rem;
+    border-radius: 50%;
+    background-color: #ED4C5C;
+}
